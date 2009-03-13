@@ -1,0 +1,18 @@
+Source: liberation-fonts
+Section: gui
+Priority: optional
+Maintainer: Alexander Kerner <lunohod@openinkpot.org>
+Homepage: https://www.redhat.com/promo/fonts/
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XS-Vcs-Git: http://git.iplinux.org/liberation-fonts.git
+XS-Vcs-Browser: http://git.iplinux.org/liberation-fonts.git
+
+Package: liberation-fonts
+Architecture: all
+Description: Free fonts with the same metrics as Times, Arial and Courier
+ A set of serif, sans-serif and monospaced fonts from Red Hat with exactly
+ the same metrics as the (non-free) Microsoft Times, Arial and Courier
+ fonts, which implies those fonts can serve as a drop-in replacement. The
+ font family is named Liberation.
